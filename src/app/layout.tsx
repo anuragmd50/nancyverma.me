@@ -31,7 +31,7 @@ const georgiaFont = localFont({
 export const metadata: Metadata = {
   title: "Nancy Verma | Graphics Designer",
   description:
-    "I'm a passionate product designer from India with over 3 years of experience in creating user-centric, delightful and human experiences.",
+    "I am a designer at heart. With 7+ years of professional experience in graphic design, I specialize in product branding, social media & advertising assets, and graphics for websites & marketplaces.",
 };
 
 export default function RootLayout({
