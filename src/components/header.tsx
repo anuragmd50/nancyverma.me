@@ -173,7 +173,7 @@ const MobileNav = ({ onClickLink }: { onClickLink?: () => void }) => {
 
         <div className="grid gap-4 grid-cols-4 mt-10">
           <UnderLineLink
-            href="#"
+            href="https:/www.linkedin.com/in/nancy-verma"
             as="externalLink"
             theme="dark"
             className="text-xl"
@@ -182,7 +182,7 @@ const MobileNav = ({ onClickLink }: { onClickLink?: () => void }) => {
           </UnderLineLink>
 
           <UnderLineLink
-            href="#"
+            href="https:/www.behance.net/nancyverma5"
             as="externalLink"
             theme="dark"
             className="text-xl"

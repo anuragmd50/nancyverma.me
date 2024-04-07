@@ -6,10 +6,13 @@ import * as React from "react";
 import { AnimatePresence } from "framer-motion";
 import { Reveal } from "@/components/reveal-animation";
 
-import image1 from "../../../public/images/work/bare-anatomy/2.jpeg";
-import image2 from "../../../public/images/work/bare-anatomy/3.jpeg";
-import image3 from "../../../public/images/work/bare-anatomy/4.jpeg";
-import image4 from "../../../public/images/work/bare-anatomy/5.jpeg";
+import image1 from "../../../public/images/about/1.jpeg";
+import image2 from "../../../public/images/about/2.jpeg";
+import image3 from "../../../public/images/about/3.jpeg";
+import image4 from "../../../public/images/about/4.jpeg";
+import image5 from "../../../public/images/about/5.jpeg";
+import image6 from "../../../public/images/about/6.jpeg";
+
 import Link from "next/link";
 
 function About() {
@@ -85,6 +88,7 @@ function About() {
               alt=""
               width={600}
               height={593}
+              placeholder="blur"
               className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
             />
           </div>
@@ -94,6 +98,7 @@ function About() {
               alt=""
               width={600}
               height={593}
+              placeholder="blur"
               className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
             />
           </div>
@@ -103,6 +108,7 @@ function About() {
               alt=""
               width={600}
               height={593}
+              placeholder="blur"
               className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
             />
           </div>
@@ -112,6 +118,27 @@ function About() {
               alt=""
               width={600}
               height={593}
+              placeholder="blur"
+              className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
+            />
+          </div>
+          <div>
+            <Image
+              src={image5}
+              alt=""
+              width={600}
+              height={593}
+              placeholder="blur"
+              className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
+            />
+          </div>
+          <div>
+            <Image
+              src={image6}
+              alt=""
+              width={600}
+              height={593}
+              placeholder="blur"
               className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
             />
           </div>
