@@ -89,7 +89,8 @@ function CaseStudy() {
 
         <div className="flex items-center justify-center mt-12 lg:mt-24">
           <a
-            href="#"
+            href="https://www.behance.net/nancyverma5"
+            target="_blank"
             className="px-12 py-3 border-primary border text-primary text-xl hover:bg-primary hover:text-white transition-all duration-300"
           >
             SEE MORE

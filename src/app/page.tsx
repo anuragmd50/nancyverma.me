@@ -1,3 +1,5 @@
+import Marquee from "react-fast-marquee";
+
 import { Reveal } from "@/components/reveal-animation";
 
 import Image from "next/image";
@@ -122,7 +124,7 @@ const Work = () => {
 
       <div className="flex items-center justify-center my-12">
         <a
-          href="#"
+          href="https://www.behance.net/nancyverma5"
           target="_blank"
           className="px-10 py-2 border-primary border text-primary hover:bg-primary hover:text-white transition-all duration-300 text-base inline-block"
         >
@@ -203,39 +205,47 @@ const Brands = () => {
         </div>
         <p className="text-2xl">I Have Designed For</p>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 place-items-center">
-          <Image
-            src="/images/brands/sun-scoop.jpeg"
-            alt="sun-scoop-logo"
-            width={129}
-            height={92}
-            className="lg:-ml-16"
-          />
-          <Image
-            src="/images/brands/bare-anatomy.jpeg"
-            alt="bare-anatomy-logo"
-            width={212}
-            height={212}
-          />
-          <Image
-            src="/images/brands/chemist-at-play.jpeg"
-            alt="chemist-at-play-logo"
-            width={179}
-            height={105}
-          />
-          <Image
-            src="/images/brands/nudge.jpeg"
-            alt="nudge-logo"
-            width={181}
-            height={100}
-          />
-          <Image
-            src="/images/brands/americana.jpg"
-            alt="americana-logo"
-            width={200}
-            height={61}
-          />
-        </div>
+        <Marquee>
+          <div className="flex items-center gap-12">
+            <Image
+              src="/images/brands/nestasia.jpeg"
+              alt="nestasia-logo"
+              width={219}
+              height={59}
+              className="ml-12"
+            />
+            <Image
+              src="/images/brands/sun-scoop.jpeg"
+              alt="sun-scoop-logo"
+              width={129}
+              height={92}
+            />
+            <Image
+              src="/images/brands/bare-anatomy.jpeg"
+              alt="bare-anatomy-logo"
+              width={212}
+              height={212}
+            />
+            <Image
+              src="/images/brands/chemist-at-play.jpeg"
+              alt="chemist-at-play-logo"
+              width={179}
+              height={105}
+            />
+            <Image
+              src="/images/brands/nudge.jpeg"
+              alt="nudge-logo"
+              width={181}
+              height={100}
+            />
+            <Image
+              src="/images/brands/americana.jpg"
+              alt="americana-logo"
+              width={200}
+              height={61}
+            />
+          </div>
+        </Marquee>
 
         <div className="h-[100px] lg:h-[50px]" />
       </section>
