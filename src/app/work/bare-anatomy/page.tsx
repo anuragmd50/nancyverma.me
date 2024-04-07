@@ -2,13 +2,8 @@
 
 import Image from "next/image";
 import * as React from "react";
-import { InView } from "react-intersection-observer";
 
-import { Aside } from "@/components/aside";
-import { MoreCaseStudyCard } from "@/components/more-casestudy-card";
-import { cn } from "@/utils";
 import { AnimatePresence } from "framer-motion";
-import Link from "next/link";
 import { Reveal } from "@/components/reveal-animation";
 
 import image1 from "../../../../public/images/work/bare-anatomy/2.jpeg";
@@ -93,7 +88,10 @@ function CaseStudy() {
         </div>
 
         <div className="flex items-center justify-center mt-12 lg:mt-24">
-          <a className="px-12 py-3 border-primary border text-primary text-xl">
+          <a
+            href="#"
+            className="px-12 py-3 border-primary border text-primary text-xl hover:bg-primary hover:text-white transition-all duration-300"
+          >
             SEE MORE
           </a>
         </div>

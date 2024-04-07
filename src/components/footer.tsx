@@ -55,7 +55,7 @@ function Footer({
 
           <div className="flex-1 flex items-center lg:justify-between gap-4 mt-4 lg:mt-0">
             <a
-              href="mailto:nancyverma396@gmail.com"
+              href="#"
               className="lg:ml-auto w-12 h-12 border rounded-xl border-white p-2 flex items-center justify-center"
             >
               <svg
@@ -71,8 +71,9 @@ function Footer({
                 />
               </svg>
             </a>
+
             <a
-              href="mailto:nancyverma396@gmail.com"
+              href="#"
               className="w-12 h-12 border rounded-xl border-white p-2 flex items-center justify-center"
             >
               <svg

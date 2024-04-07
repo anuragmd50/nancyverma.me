@@ -30,13 +30,13 @@ const Intro = () => {
             >
               ABOUT ME
             </Link>
-            <a
-              href="mailto:nancyverma396@gmail.com"
+            <Link
+              href="/nancy-resume.pdf"
               target="_blank"
-              className="px-10 py-2 border-primary border text-primary text-base inline-block"
+              className="px-10 py-2 border-primary border text-primary text-base inline-block hover:bg-primary hover:text-white transition-all duration-300"
             >
-              EMAIL
-            </a>
+              RESUME
+            </Link>
           </div>
         </div>
       </div>
@@ -57,6 +57,7 @@ const Work = () => {
       <h2 className="text-4xl mb-10 pt-32 font-medium font-poppins" id="work">
         Recent Work
       </h2>
+
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
         <Link href="/work/sun-scoop">
           <Image
@@ -121,9 +122,9 @@ const Work = () => {
 
       <div className="flex items-center justify-center my-12">
         <a
-          href="mailto:nancyverma396@gmail.com"
+          href="#"
           target="_blank"
-          className="px-10 py-2 border-primary border text-primary text-base inline-block"
+          className="px-10 py-2 border-primary border text-primary hover:bg-primary hover:text-white transition-all duration-300 text-base inline-block"
         >
           SEE MORE
         </a>
@@ -132,46 +133,61 @@ const Work = () => {
   );
 };
 
+const LogoWrapper = ({
+  children,
+  tooltip,
+}: {
+  children: React.ReactNode;
+  tooltip?: string;
+}) => {
+  return (
+    <div className="group relative flex items-center justify-center flex-col">
+      {children}
+      <span className="mt-2 text-xs text-gray-500">{tooltip}</span>
+    </div>
+  );
+};
+
 const ToolBox = () => {
   return (
-    <Reveal>
+    <Reveal width="100%">
       <section className="bg-[#f7f7f7] p-8 md:p-20 lg:p-24 xl:p-32">
         <div className="text-3xl lg:text-4xl xl:text-5xl font-georgia font-bold text-[#313232]">
           <h2>Tool Box</h2>
         </div>
 
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 place-items-center">
-          <Image
-            src="/images/photoshop.png"
-            alt="photoshop-logo"
-            width={60}
-            height={60}
-          />
-          <Image
-            src="/images/illustrator.png"
-            alt="adobe-illustrator-logo"
-            width={60}
-            height={60}
-          />
-          <Image
-            src="/images/coreldraw.png"
-            alt="coreldraw-logo"
-            width={60}
-            height={60}
-            className="rounded-lg"
-          />
-          <Image
-            src="/images/canva.png"
-            alt="canva-logo"
-            width={60}
-            height={60}
-          />
-          <Image
-            src="/images/figma.png"
-            alt="figma-logo"
-            width={60}
-            height={60}
-          />
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 place-items-start">
+          <LogoWrapper tooltip="Photoshop">
+            <Image
+              src="/images/photoshop.png"
+              alt="Photoshop"
+              width={60}
+              height={60}
+            />
+          </LogoWrapper>
+          <LogoWrapper tooltip="Adobe Illustrator">
+            <Image
+              src="/images/illustrator.png"
+              alt="Adobe Illustrator"
+              width={60}
+              height={60}
+            />
+          </LogoWrapper>
+          <LogoWrapper tooltip="Coreldraw">
+            <Image
+              src="/images/coreldraw.png"
+              alt="Coreldraw"
+              width={60}
+              height={60}
+              className="rounded-lg"
+            />
+          </LogoWrapper>
+          <LogoWrapper tooltip="Canva">
+            <Image src="/images/canva.png" alt="Canva" width={60} height={60} />
+          </LogoWrapper>
+          <LogoWrapper tooltip="Figma">
+            <Image src="/images/figma.png" alt="Figma" width={60} height={60} />
+          </LogoWrapper>
         </div>
       </section>
     </Reveal>
@@ -180,7 +196,7 @@ const ToolBox = () => {
 
 const Brands = () => {
   return (
-    <Reveal>
+    <Reveal width="100%">
       <section className="bg-[#fff] p-8 md:p-20 lg:p-24 xl:p-32">
         <div className="text-3xl lg:text-4xl xl:text-5xl font-georgia font-bold text-[#313232]">
           <h2>Brands</h2>

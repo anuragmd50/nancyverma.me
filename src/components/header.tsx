@@ -111,7 +111,7 @@ const DesktopNav = ({ path }: { path: string }) => {
       </li> */}
 
       <li>
-        <UnderLineLink href="/disha-resume.pdf" as="externalLink">
+        <UnderLineLink href="/nancy-resume.pdf" as="externalLink">
           Resume
         </UnderLineLink>
       </li>
@@ -160,7 +160,7 @@ const MobileNav = ({ onClickLink }: { onClickLink?: () => void }) => {
 
         <MobileNavLink
           title="RESUME"
-          href="/disha-resume.pdf"
+          href="/nancy-resume.pdf"
           onClick={onClickLink}
         />
 
@@ -173,7 +173,7 @@ const MobileNav = ({ onClickLink }: { onClickLink?: () => void }) => {
 
         <div className="grid gap-4 grid-cols-4 mt-10">
           <UnderLineLink
-            href="https://www.linkedin.com/in/disha-rajput/"
+            href="#"
             as="externalLink"
             theme="dark"
             className="text-xl"
@@ -182,7 +182,7 @@ const MobileNav = ({ onClickLink }: { onClickLink?: () => void }) => {
           </UnderLineLink>
 
           <UnderLineLink
-            href="https://www.behance.net/disharajput"
+            href="#"
             as="externalLink"
             theme="dark"
             className="text-xl"

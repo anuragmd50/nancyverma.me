@@ -10,6 +10,7 @@ import image1 from "../../../public/images/work/bare-anatomy/2.jpeg";
 import image2 from "../../../public/images/work/bare-anatomy/3.jpeg";
 import image3 from "../../../public/images/work/bare-anatomy/4.jpeg";
 import image4 from "../../../public/images/work/bare-anatomy/5.jpeg";
+import Link from "next/link";
 
 function About() {
   return (
@@ -68,9 +69,13 @@ function About() {
             Apart from being a graphic designer, I’m a great cook.
           </p>
 
-          <a className="px-12 py-3 border-primary border text-primary text-xl inline-block mt-8">
+          <Link
+            href="/nancy-resume.pdf"
+            target="_blank"
+            className="px-12 py-3 border-primary border text-primary hover:bg-primary hover:text-white transition-all duration-300 text-xl inline-block mt-8"
+          >
             RESUME
-          </a>
+          </Link>
         </div>
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">
