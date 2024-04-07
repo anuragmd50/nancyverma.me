@@ -16,14 +16,23 @@ function CaseStudy() {
     <AnimatePresence>
       <main className="min-h-screen">
         <Reveal width="100%">
-          <div className="px-[6.5%] my-8 text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
-            <h1>Bare Anatomy</h1>
+          <div className="px-[6.5%] my-8 font-light text-xl">
+            <div className="text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
+              <h1>Bare Anatomy</h1>
+            </div>
+
+            <p className="my-6">
+              Bare anatomy is a hair care brand started with an attempt to
+              provide custom hair care solutions. It now offers a range of
+              products from hair serums, shampoos, conditioners, masks, and
+              related accessories.
+            </p>
           </div>
 
           <div className="w-full h-[250px] lg:h-[480px] mt-10 lg:mt-16">
             <Image
               src="/images/work/bare-anatomy/1.jpeg"
-              alt="disha"
+              alt=""
               width={1184}
               height={520}
               className="w-full h-full object-cover transition-all duration-300"
@@ -33,10 +42,45 @@ function CaseStudy() {
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 text-xl font-light">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-10">
-            HIGHLIGHTS:
+            HIGHLIGHTS
           </h2>
 
-          <p className="my-6">
+          <ul className="list-disc px-4">
+            <li className="my-1">
+              I have worked on planning and executing product launches for{" "}
+              <span>
+                <a
+                  href="https://innovist.com/products/curly-range-kit-2"
+                  target="_blank"
+                >
+                  Curly hair range
+                </a>
+              </span>
+              and
+              <span>
+                <a
+                  href="https://innovist.com/products/hair-wax"
+                  target="_blank"
+                >
+                  Hair wax.
+                </a>
+              </span>
+            </li>
+            <li className="my-1">
+              Designed graphic assets for advertising campaigns - for Meta,
+              google sponsored ads, etc.
+            </li>
+            <li className="my-1">
+              Designed graphic assets for marketplaces- Amazon, Nykaa, Flipkart,
+              Blinkit, Tira, etc.
+            </li>
+            <li className="my-1">
+              Graphic assets for website including - banners, icons, sale logos
+              &units, popups, and more.
+            </li>
+          </ul>
+
+          {/* <p className="my-6">
             The below shown assets are from campaigns of the following products:{" "}
           </p>
 
@@ -45,7 +89,7 @@ function CaseStudy() {
           <p className="my-6">
             Bare Anatomy started with an attempt to provide custom hair care
             solutions now providing a range of products.{" "}
-          </p>
+          </p> */}
         </div>
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">

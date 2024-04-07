@@ -158,7 +158,7 @@ const ToolBox = () => {
           <h2>Tool Box</h2>
         </div>
 
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 place-items-start">
+        <div className="mt-12 flex items-center flex-wrap gap-12">
           <LogoWrapper tooltip="Photoshop">
             <Image
               src="/images/photoshop.png"
@@ -167,10 +167,10 @@ const ToolBox = () => {
               height={60}
             />
           </LogoWrapper>
-          <LogoWrapper tooltip="Adobe Illustrator">
+          <LogoWrapper tooltip="Illustrator">
             <Image
               src="/images/illustrator.png"
-              alt="Adobe Illustrator"
+              alt="Illustrator"
               width={60}
               height={60}
             />
@@ -241,6 +241,54 @@ const Brands = () => {
             <Image
               src="/images/brands/americana.jpg"
               alt="americana-logo"
+              width={200}
+              height={61}
+            />
+            <Image
+              src="/images/brands/codebrew.jpeg"
+              alt="codebrew-logo"
+              width={200}
+              height={61}
+            />
+            <Image
+              src="/images/brands/daffodils.jpeg"
+              alt="daffodils-logo"
+              width={200}
+              height={61}
+            />
+            <Image
+              src="/images/brands/studio-6.jpeg"
+              alt="studio-6-logo"
+              width={200}
+              height={61}
+            />
+            <Image
+              src="/images/brands/teckle.jpg"
+              alt="teckle-logo"
+              width={200}
+              height={61}
+            />
+            <Image
+              src="/images/brands/whitechalk.jpg"
+              alt="whitechalk-logo"
+              width={70}
+              height={61}
+            />
+            <Image
+              src="/images/brands/kabera.jpeg"
+              alt="kabera-logo"
+              width={200}
+              height={61}
+            />
+            <Image
+              src="/images/brands/kabera-clinics.jpeg"
+              alt="kabera-clinics-logo"
+              width={200}
+              height={61}
+            />
+            <Image
+              src="/images/brands/kabera-care.jpeg"
+              alt="kabera-care-logo"
               width={200}
               height={61}
             />

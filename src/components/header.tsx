@@ -99,17 +99,6 @@ const DesktopNav = ({ path }: { path: string }) => {
         )}
       </li>
 
-      {/* <li className="relative">
-        <UnderLineLink href="/experiments">EXPERIMENTS</UnderLineLink>
-        {path === "/experiments" && (
-          <span className="absolute left-0 bottom-[0.5px] block h-[1.5px] w-full bg-black" />
-        )}
-      </li> */}
-
-      {/* <li className="relative">
-        <UnderLineLink href="#contact">Contact</UnderLineLink>
-      </li> */}
-
       <li>
         <UnderLineLink href="/nancy-resume.pdf" as="externalLink">
           Resume
@@ -150,12 +139,6 @@ const MobileNav = ({ onClickLink }: { onClickLink?: () => void }) => {
 
         <MobileNavLink title="ABOUT" href="/about" onClick={onClickLink} />
 
-        {/* <MobileNavLink
-          title="EXPERIMENTS"
-          href="/experiments"
-          onClick={onClickLink}
-        /> */}
-
         <MobileNavLink title="CONTACT" href="/#contact" onClick={onClickLink} />
 
         <MobileNavLink
@@ -166,7 +149,10 @@ const MobileNav = ({ onClickLink }: { onClickLink?: () => void }) => {
 
         <div className="mt-10 text-2xl">
           <p className="font-light text-gray-300 text-xl">Let&apos;s talk</p>
-          <a href="mailto:nancyverma396@gmail.com" className="">
+          <a
+            href="mailto:nancyverma396@gmail.com"
+            className="text-xl lg:text-2xl"
+          >
             nancyverma396@gmail.com
           </a>
         </div>

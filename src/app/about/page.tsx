@@ -23,7 +23,7 @@ function About() {
           <div className="w-full h-[250px] lg:h-[480px] mt-10 lg:mt-16">
             <Image
               src="/images/about/about-cover.jpeg"
-              alt="disha"
+              alt="Nancy"
               width={1184}
               height={593}
               className="w-full h-full object-cover object-top transition-all duration-300"

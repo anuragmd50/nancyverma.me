@@ -37,10 +37,7 @@ function Footer({
               design things that are understandable, usable, and enjoyable.
             </p>
 
-            <p
-              // href="mailto:rajput09disha@gmail.com"
-              className="md:mb-3 mt-8 font-georgia font-bold text-3xl md:text-4xl lg:text-5xl xl:text-8xl"
-            >
+            <p className="md:mb-3 mt-8 font-georgia font-bold text-3xl md:text-4xl lg:text-5xl xl:text-8xl">
               Let’s Work!
             </p>
           </div>
@@ -126,72 +123,13 @@ function Footer({
           </div>
         </div>
 
-        {/* <div className="flex justify-between mt-8 md:mt-12 md:flex-row gap-10 md:gap-0 flex-col-reverse">
-          <div className="flex justify-between gap-8 flex-[0.6] md:flex-1 lg:flex-[0.8]">
-            <p className="">You can find me here 👉</p>
-
-            <div className="grid gap-4 grid-cols-1 lg:grid-cols-3">
-              <UnderLineLink
-                href="https://www.linkedin.com/in/disha-rajput/"
-                as="externalLink"
-                theme="dark"
-                className="font-poppins"
-              >
-                Linkedin
-              </UnderLineLink>
-
-              <UnderLineLink
-                href="https://www.behance.net/disharajput"
-                as="externalLink"
-                theme="dark"
-                className="font-poppins"
-              >
-                Behance
-              </UnderLineLink>
-
-              <UnderLineLink
-                href="https://dribbble.com/ddiisshhaa/"
-                as="externalLink"
-                theme="dark"
-                className="font-poppins"
-              >
-                Dribble
-              </UnderLineLink>
-            </div>
-          </div>
-
-          <div className="flex-1">
-            <button
-              onClick={() => {
-                window.scrollTo(0, 0);
-              }}
-              className="ml-auto block"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={50}
-                height={50}
-                fill="none"
-              >
-                <circle cx={25} cy={25} r={25} fill="#fff" />
-                <path
-                  fill="#000"
-                  fillRule="evenodd"
-                  d="M25.5 16.667a.5.5 0 0 1 .353.146l6.667 6.667a.5.5 0 1 1-.707.707L26 18.374v15.46a.5.5 0 1 1-1 0v-15.46l-5.813 5.813a.5.5 0 0 1-.707-.707l6.666-6.667a.5.5 0 0 1 .354-.146Z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </button>
-          </div>
-        </div> */}
-
         {/* <div className="flex justify-between mt-8 md:mt-16 flex-col md:flex-row gap-8 md:gap-0">
           <p className="text-[#858e97] text-sm md:text-base">
-            Copyright @ {new Date().getFullYear()} Disha Rajput
+            Copyright @ {new Date().getFullYear()} Nancy Verma
           </p>
 
           <p className="text-[#858e97] text-sm md:text-base">
-            Developed with ❤️ by{" "}
+            Developed by{" "}
             <a
               href="https://kumarbrijesh.com"
               rel="noreferrer"
