@@ -6,10 +6,10 @@ import * as React from "react";
 import { AnimatePresence } from "framer-motion";
 import { Reveal } from "@/components/reveal-animation";
 
-import image1 from "../../../../public/images/work/bare-anatomy/2.jpeg";
-import image2 from "../../../../public/images/work/bare-anatomy/3.jpeg";
-import image3 from "../../../../public/images/work/bare-anatomy/4.jpeg";
-import image4 from "../../../../public/images/work/bare-anatomy/5.jpeg";
+import image1 from "../../../../public/images/work/innovist/2.jpeg";
+import image2 from "../../../../public/images/work/innovist/3.jpeg";
+import image3 from "../../../../public/images/work/innovist/4.jpeg";
+import image4 from "../../../../public/images/work/innovist/5.jpeg";
 
 function CaseStudy() {
   return (
@@ -17,13 +17,13 @@ function CaseStudy() {
       <main className="min-h-screen">
         <Reveal width="100%">
           <div className="px-[6.5%] my-8 text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
-            <h1>Bare Anatomy</h1>
+            <h1>Chemist at Play</h1>
           </div>
 
           <div className="w-full h-[250px] lg:h-[480px] mt-10 lg:mt-16">
             <Image
-              src="/images/work/bare-anatomy/1.jpeg"
-              alt="disha"
+              src="/images/work/innovist/1.jpeg"
+              alt=""
               width={1184}
               height={520}
               className="w-full h-full object-cover transition-all duration-300"
@@ -40,11 +40,20 @@ function CaseStudy() {
             The below shown assets are from campaigns of the following products:{" "}
           </p>
 
-          <p className="my-6">Heat protection spray | Shampoo </p>
+          <p className="my-6">
+            Under arm roll-on | Exfoliating peeling solution | Lip sleeping mask
+            | Glow sleeping mask{" "}
+          </p>
 
           <p className="my-6">
-            Bare Anatomy started with an attempt to provide custom hair care
-            solutions now providing a range of products.{" "}
+            The diwali campaign of under arm roll-on (banner on top is from the
+            same campaign) generated{" "}
+            <span className="font-medium">13 lac+ sales</span> in a single day.
+          </p>
+          <p className="my-6">
+            I took care of the end-to-end launch(which includes style guides,
+            design guidelines, marketing & website assets) for the exfoliating
+            peeling solution.
           </p>
         </div>
 

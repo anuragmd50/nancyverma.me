@@ -59,63 +59,63 @@ const Work = () => {
       </h2>
 
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
-        <Link href="/work/sun-scoop">
+        <Link href="/work/nestasia" className="overflow-hidden">
           <Image
-            src="/images/work/sun-scoop.jpeg"
+            src="/images/work/nestasia.jpeg"
             alt=""
             width={500}
             height={600}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover hover:scale-[1.02] transition-all duration-300"
           />
         </Link>
 
-        <Link href="/work/nudge">
+        <Link href="/work/nudge" className="overflow-hidden">
           <Image
             src="/images/work/nudge.jpeg"
             alt=""
             width={500}
             height={600}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover hover:scale-[1.02] transition-all duration-300"
           />
         </Link>
 
-        <Link href="/work/bare-anatomy">
+        <Link href="/work/bare-anatomy" className="overflow-hidden">
           <Image
             src="/images/work/bare-anatomy.jpeg"
             alt=""
             width={500}
             height={600}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover hover:scale-[1.02] transition-all duration-300"
           />
         </Link>
 
-        <Link href="/work/bare-anatomy-product-2">
+        <Link href="/work/sunscoop" className="overflow-hidden">
           <Image
-            src="/images/work/bare-anatomy-product-2.jpeg"
+            src="/images/work/sunscoop.jpeg"
             alt=""
             width={500}
             height={600}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover hover:scale-[1.02] transition-all duration-300"
           />
         </Link>
 
-        <Link href="/work/innovist">
+        <Link href="/work/innovist" className="overflow-hidden">
           <Image
             src="/images/work/innovist.jpg"
             alt=""
             width={500}
             height={600}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover hover:scale-[1.02] transition-all duration-300"
           />
         </Link>
 
-        <Link href="/work/bonn">
+        <Link href="/work/bonn" className="overflow-hidden">
           <Image
             src="/images/work/bonn.jpeg"
             alt=""
             width={500}
             height={600}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover hover:scale-[1.02] transition-all duration-300"
           />
         </Link>
       </section>
