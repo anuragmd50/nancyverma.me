@@ -16,8 +16,26 @@ function CaseStudy() {
     <AnimatePresence>
       <main className="min-h-screen">
         <Reveal width="100%">
-          <div className="px-[6.5%] my-8 text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
-            <h1>SUNSCOOP</h1>
+          <div className="px-[6.5%] my-8 font-light text-xl">
+            <div className="text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
+              <h1>SUNSCOOP</h1>
+            </div>
+
+            <p className="my-6">
+              <span className="text-primary">
+                <a
+                  target="_blank"
+                  href="https://innovist.com/pages/sunscoop-store"
+                >
+                  Sun Scoop
+                </a>
+              </span>{" "}
+              is a sun screen brand that aims on educating the importance of
+              wearing sunscreen while being fun. It offers a variety of
+              sunscreens with texture and SPF variations. I personally love it’s
+              branding 😌 , Yellow being my favorite color could be a bias
+              though.
+            </p>
           </div>
 
           <div className="w-full h-[250px] lg:h-[480px] mt-10 lg:mt-16">
@@ -33,22 +51,45 @@ function CaseStudy() {
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 text-xl font-light">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-10">
-            HIGHLIGHTS:
+            HIGHLIGHTS
           </h2>
 
-          <p className="my-6">
-            The below shown assets are from campaigns of the following products:{" "}
-          </p>
-
-          <p className="my-6">
-            Invisible body sunscreen | Daily sunscreen(with SPF variations){" "}
-          </p>
-
-          <p className="my-6">
-            SunScoop as a brand educates on the importance of wearing sunscreen
-            while being fun. I personally love it’s branding 😌 , Yellow being
-            my favorite color could be a bias though.
-          </p>
+          <ul className="list-disc px-4">
+            <li className="my-1">
+              I have worked on planning and executing the launches of Invisible{" "}
+              <span className="text-primary">
+                <a
+                  href="https://innovist.com/products/invisible-body-sunscreen-spf-60-125-ml"
+                  target="_blank"
+                >
+                  body sunscreen
+                </a>
+              </span>
+              {", "}
+              <span className="text-primary">
+                <a
+                  href="https://innovist.com/products/ultra-matte-dry-touch-sunscreen-spf-50"
+                  target="_blank"
+                >
+                  Matte dry touch sunscreen
+                </a>
+              </span>{" "}
+              and{" "}
+              <span className="text-primary">
+                <a
+                  href="https://innovist.com/products/hydrating-fluid-sunscreen-for-face-and-body-spf-60-pa"
+                  target="_blank"
+                >
+                  hydrating sunscreen spray
+                </a>
+              </span>
+              .
+            </li>
+            <li className="my-1">
+              Designed graphic assets for advertising campaigns, graphic design
+              assets for various marketplaces and the product website.
+            </li>
+          </ul>
         </div>
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">

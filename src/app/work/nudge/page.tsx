@@ -16,8 +16,22 @@ function CaseStudy() {
     <AnimatePresence>
       <main className="min-h-screen">
         <Reveal width="100%">
-          <div className="px-[6.5%] my-8 text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
-            <h1>Nudge</h1>
+          <div className="px-[6.5%] my-8 font-light text-xl">
+            <div className="text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
+              <h1>Nudge</h1>
+            </div>
+
+            <p className="my-6">
+              <span className="text-primary">
+                <a target="_blank" href="https://nudgewellness.com">
+                  Nudge
+                </a>
+              </span>{" "}
+              is a brainchild of Innovist and Nykka launched with an attempt to
+              offer daily hydration products and has extended the offerings to
+              Vitamins & minerals, proteins, and fats to fill the daily
+              nutritional gaps in our daily lives.
+            </p>
           </div>
 
           <div className="w-full h-[250px] lg:h-[480px] mt-10 lg:mt-16">
@@ -33,20 +47,22 @@ function CaseStudy() {
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 text-xl font-light">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-10">
-            HIGHLIGHTS:
+            HIGHLIGHTS
           </h2>
 
-          <p className="my-6">
-            The below shown assets are from campaigns of the following products:{" "}
-          </p>
-
-          <p className="my-6">Skin gummies | Hydration enhancer</p>
-
-          <p className="my-6">
-            Nudge as a brand was launched in 2022. I participated since its
-            inception right from designing the logo, creating brand guidelines,
-            and marketing collaterals.
-          </p>
+          <ul className="list-disc px-4">
+            <li className="my-1">
+              I participated since its inception right from designing the logo,
+              creating brand guidelines, and marketing collaterals.
+            </li>
+            <li className="my-1">
+              Planned and designed moodboards to inform the sale campaigns.
+            </li>
+            <li className="my-1">
+              Designed graphic assets for product website, advertising assets,
+              product launches, and more.
+            </li>
+          </ul>
         </div>
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">

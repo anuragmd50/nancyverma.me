@@ -16,8 +16,21 @@ function CaseStudy() {
     <AnimatePresence>
       <main className="min-h-screen">
         <Reveal width="100%">
-          <div className="px-[6.5%] my-8 text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
-            <h1>Nestasia</h1>
+          <div className="px-[6.5%] my-8 font-light text-xl">
+            <div className="text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
+              <h1>Nestasia</h1>
+            </div>
+
+            <p className="my-6">
+              <span className="text-primary">
+                <a target="_blank" href="https://nestasia.in/">
+                  Nestasia
+                </a>
+              </span>{" "}
+              is a premium home decor brand that offers products ranges in
+              dining, decor, bath, kitchen, soft furnishing, stationery, and
+              bags & accessories.
+            </p>
           </div>
 
           <div className="w-full h-[250px] lg:h-[480px] mt-10 lg:mt-16">
@@ -33,19 +46,24 @@ function CaseStudy() {
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 text-xl font-light">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-10">
-            HIGHLIGHTS:
+            HIGHLIGHTS
           </h2>
 
-          <p className="my-6">
-            The below shown assets are from campaigns of the following products:{" "}
-          </p>
-
-          <p className="my-6">Heat protection spray | Shampoo </p>
-
-          <p className="my-6">
-            Bare Anatomy started with an attempt to provide custom hair care
-            solutions now providing a range of products.{" "}
-          </p>
+          <ul className="list-disc px-4">
+            <li className="my-1">
+              I have worked on creating graphic assets for the brand’s website
+              and amazon marketplace store.
+            </li>
+            <li className="my-1">
+              Planned and designed moodboards to inform the seasonal, festive,
+              and monthly sales campaigns.
+            </li>
+            <li className="my-1">
+              Worked extensively on design assets for advertising campaigns,
+              WhatsApp & push notification banners for all the range of
+              products.
+            </li>
+          </ul>
         </div>
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">

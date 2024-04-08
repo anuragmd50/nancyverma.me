@@ -22,10 +22,17 @@ function CaseStudy() {
             </div>
 
             <p className="my-6">
-              Bare anatomy is a hair care brand started with an attempt to
-              provide custom hair care solutions. It now offers a range of
-              products from hair serums, shampoos, conditioners, masks, and
-              related accessories.
+              <span className="text-primary">
+                <a
+                  target="_blank"
+                  href="https://innovist.com/pages/bare-anatomy-store"
+                >
+                  Bare anatomy
+                </a>
+              </span>{" "}
+              is a hair care brand started with an attempt to provide custom
+              hair care solutions. It now offers a range of products from hair
+              serums, shampoos, conditioners, masks, and related accessories.
             </p>
           </div>
 
@@ -48,16 +55,16 @@ function CaseStudy() {
           <ul className="list-disc px-4">
             <li className="my-1">
               I have worked on planning and executing product launches for{" "}
-              <span>
+              <span className="text-primary">
                 <a
                   href="https://innovist.com/products/curly-range-kit-2"
                   target="_blank"
                 >
                   Curly hair range
                 </a>
-              </span>
-              and
-              <span>
+              </span>{" "}
+              and{" "}
+              <span className="text-primary">
                 <a
                   href="https://innovist.com/products/hair-wax"
                   target="_blank"
@@ -79,17 +86,6 @@ function CaseStudy() {
               &units, popups, and more.
             </li>
           </ul>
-
-          {/* <p className="my-6">
-            The below shown assets are from campaigns of the following products:{" "}
-          </p>
-
-          <p className="my-6">Heat protection spray | Shampoo </p>
-
-          <p className="my-6">
-            Bare Anatomy started with an attempt to provide custom hair care
-            solutions now providing a range of products.{" "}
-          </p> */}
         </div>
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">

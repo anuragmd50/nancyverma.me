@@ -16,8 +16,24 @@ function CaseStudy() {
     <AnimatePresence>
       <main className="min-h-screen">
         <Reveal width="100%">
-          <div className="px-[6.5%] my-8 text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
-            <h1>Chemist at Play</h1>
+          <div className="px-[6.5%] my-8 font-light text-xl">
+            <div className="text-3xl lg:text-4xl xl:text-5xl z-50 font-georgia font-bold">
+              <h1>Chemist at Play</h1>
+            </div>
+
+            <p className="my-6">
+              <span className="text-primary">
+                <a
+                  target="_blank"
+                  href="https://innovist.com/pages/chemist-at-play-store"
+                >
+                  Chemist at Play
+                </a>
+              </span>{" "}
+              is a brand that offers products for body and skin care ranging
+              from body washes & lotions, face washes, serums, roll ons, and
+              moisturisers.
+            </p>
           </div>
 
           <div className="w-full h-[250px] lg:h-[480px] mt-10 lg:mt-16">
@@ -36,25 +52,38 @@ function CaseStudy() {
             HIGHLIGHTS:
           </h2>
 
-          <p className="my-6">
-            The below shown assets are from campaigns of the following products:{" "}
-          </p>
-
-          <p className="my-6">
-            Under arm roll-on | Exfoliating peeling solution | Lip sleeping mask
-            | Glow sleeping mask{" "}
-          </p>
-
-          <p className="my-6">
-            The diwali campaign of under arm roll-on (banner on top is from the
-            same campaign) generated{" "}
-            <span className="font-medium">13 lac+ sales</span> in a single day.
-          </p>
-          <p className="my-6">
-            I took care of the end-to-end launch(which includes style guides,
-            design guidelines, marketing & website assets) for the exfoliating
-            peeling solution.
-          </p>
+          <ul className="list-disc px-4">
+            <li className="my-1">
+              I headed the complete design process for this brand including-
+              redefining guidelines, social channels, product website, sales
+              campaigns, etc.
+            </li>
+            <li className="my-1">
+              I have worked on planning and executing the launches of{" "}
+              <span className="text-primary">
+                <a
+                  href="https://innovist.com/collections/category-body-lotion"
+                  target="_blank"
+                >
+                  body lotion ranges
+                </a>
+              </span>
+              ,{" "}
+              <span className="text-primary">
+                <a
+                  href="https://innovist.com/collections/face-washes"
+                  target="_blank"
+                >
+                  facewash ranges
+                </a>
+              </span>
+              .
+            </li>
+            <li className="my-1">
+              Designed graphic asset for almost every product offering of the
+              ‘chemist at play’ brand.
+            </li>
+          </ul>
         </div>
 
         <div className="px-[6%] gap-8 mt-12 lg:mt-16 grid grid-cols-1 md:grid-cols-2">

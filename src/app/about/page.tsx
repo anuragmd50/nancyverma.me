@@ -52,7 +52,12 @@ function About() {
           </p>
 
           <p className="my-6">
-            My most recent work stint was with{" "}
+            I am currenty working as a part of the design team at Nestasia where
+            I lead the design process.
+          </p>
+
+          <p className="my-6">
+            Before Nestasia, I worked with{" "}
             <span className="font-semibold">Innovist</span> which has{" "}
             <span className="font-semibold">
               4 brands- Bare Anatomy, Chemist at Play, Sun Scoop, and Nudge
@@ -62,7 +67,7 @@ function About() {
           </p>
 
           <p className="my-6">
-            At Innovist I designed for social engagement & advertising, their
+            At Innovist, I designed for social engagement & advertising, their
             e-commerce partners, Nykaa, Amazon, and Flipkart, Myntra, Landing
             page, website and other marketing assets like, banners, newsletters.
           </p>
