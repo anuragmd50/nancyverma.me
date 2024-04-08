@@ -27,7 +27,7 @@ function CaseStudy() {
                   Nudge
                 </a>
               </span>{" "}
-              is a brainchild of Innovist and Nykka launched with an attempt to
+              is a brainchild of Innovist and Nykaa launched with an attempt to
               offer daily hydration products and has extended the offerings to
               Vitamins & minerals, proteins, and fats to fill the daily
               nutritional gaps in our daily lives.
