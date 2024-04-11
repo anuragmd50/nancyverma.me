@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from "react";
 
-export const Video = ({ src }: { src: string }) => {
+export const Video = ({ src, poster }: { src: string; poster?: string }) => {
   const [isPlaying, setPlaying] = useState(false);
   const [muted, setMuted] = useState(true);
   const ref = useRef<HTMLVideoElement>(null);
@@ -19,14 +19,14 @@ export const Video = ({ src }: { src: string }) => {
 
   return (
     <div
-      className="relative bg-gray-200"
+      className="relative bg-gray-200 h-full w-full"
       onMouseEnter={play}
       onMouseOver={play}
       onMouseOut={pause}
       onMouseLeave={pause}
       onClick={() => setMuted(!muted)}
     >
-      <video controls={false} ref={ref} muted={muted}>
+      <video controls={false} ref={ref} muted={muted} poster={poster}>
         <source src={src} type="video/mp4" />
       </video>
 

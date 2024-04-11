@@ -224,14 +224,14 @@ const MotionVideos = () => {
         </p>
 
         <div className="mt-24 lg:mt-40 xl:[&>*:nth-child(even)]:-mt-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center place-content-center gap-12">
-          <Video src="/videos/2.mp4" />
-          <Video src="/videos/4.mp4" />
-          <Video src="/videos/5.mp4" />
-          <Video src="/videos/8.mp4" />
-          <Video src="/videos/17.mp4" />
-          <Video src="/videos/11.mp4" />
-          <Video src="/videos/10.mp4" />
-          <Video src="/videos/7.mp4" />
+          <Video src="/videos/2.mp4" poster="/images/video-posters/2.png" />
+          <Video src="/videos/4.mp4" poster="/images/video-posters/4.png" />
+          <Video src="/videos/5.mp4" poster="/images/video-posters/5.png" />
+          <Video src="/videos/8.mp4" poster="/images/video-posters/8.png" />
+          <Video src="/videos/17.mp4" poster="/images/video-posters/17.png" />
+          <Video src="/videos/11.mp4" poster="/images/video-posters/11.png" />
+          <Video src="/videos/10.mp4" poster="/images/video-posters/10.png" />
+          <Video src="/videos/7.mp4" poster="/images/video-posters/7.png" />
         </div>
 
         <div className="flex items-center justify-center my-12">
