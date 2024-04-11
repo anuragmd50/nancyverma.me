@@ -5,6 +5,7 @@ import { Reveal } from "@/components/reveal-animation";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Video } from "@/components/video";
 
 const Intro = () => {
   return (
@@ -204,6 +205,41 @@ const ToolBox = () => {
   );
 };
 
+const MotionVideos = () => {
+  return (
+    <Reveal width="100%">
+      <section className="p-8 md:p-20 lg:p-24 xl:p-32 pt-0 md:pt-0 lg:pt-0 xl:pt-0">
+        <div className="text-2xl lg:text-3xl xl:text-4xl text-center font-georgia font-bold text-[#313232]">
+          <h2>Motion graphics done right!</h2>
+          <p className="text-sm font-serif font-light">
+            (Here are some of the videos i made for insta ads.)
+          </p>
+        </div>
+
+        <div className="mt-32 xl:[&>*:nth-child(even)]:-mt-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center place-content-center gap-12">
+          <Video src="/videos/3.mp4" />
+          <Video src="/videos/4.mp4" />
+          <Video src="/videos/5.mp4" />
+          <Video src="/videos/6.mp4" />
+          <Video src="/videos/7.mp4" />
+          <Video src="/videos/8.mp4" />
+          <Video src="/videos/10.mp4" />
+          <Video src="/videos/11.mp4" />
+        </div>
+
+        <div className="flex items-center justify-center my-12">
+          <Link
+            href="/motion-videos"
+            className="px-10 py-2 border-primary border text-primary hover:bg-primary hover:text-white transition-all duration-300 text-base inline-block"
+          >
+            SEE MORE
+          </Link>
+        </div>
+      </section>
+    </Reveal>
+  );
+};
+
 const Brands = () => {
   return (
     <Reveal width="100%">
@@ -314,6 +350,7 @@ function Home() {
     <main className="min-h-screen">
       <Intro />
       <Work />
+      <MotionVideos />
       <ToolBox />
       <Brands />
     </main>
