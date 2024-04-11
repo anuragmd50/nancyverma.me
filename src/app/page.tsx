@@ -175,6 +175,14 @@ const ToolBox = () => {
               height={60}
             />
           </LogoWrapper>
+          <LogoWrapper tooltip="After Effects">
+            <Image
+              src="/images/after-effects.png"
+              alt="After Effects"
+              width={60}
+              height={60}
+            />
+          </LogoWrapper>
           <LogoWrapper tooltip="Coreldraw">
             <Image
               src="/images/coreldraw.png"
