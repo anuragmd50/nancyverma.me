@@ -56,8 +56,11 @@ const Intro = () => {
 
 const Work = () => {
   return (
-    <section className="p-8 md:p-20 lg:p-24 xl:p-32 pt-0 md:pt-0 lg:pt-0 xl:pt-0">
-      <h2 className="text-4xl mb-10 pt-32 font-medium font-poppins" id="work">
+    <section className="bg-gray-100  p-8 md:p-20 lg:p-24 xl:p-32 py-8 md:py-8 lg:py-8 xl:py-8">
+      <h2
+        className="text-3xl font-georgia lg:text-4xl mb-10 pt-8 font-medium lg:font-bold xl:text-5xl"
+        id="work"
+      >
         Recent Work
       </h2>
 
@@ -155,9 +158,12 @@ const ToolBox = () => {
   return (
     <Reveal width="100%">
       <section className="bg-[#f7f7f7] p-8 md:p-20 lg:p-24 xl:p-32">
-        <div className="text-3xl lg:text-4xl xl:text-5xl font-georgia font-bold text-[#313232]">
-          <h2>Tool Box</h2>
-        </div>
+        <h2
+          className="text-3xl font-georgia lg:text-4xl mb-1 pt-8 font-medium lg:font-bold xl:text-5xl"
+          id="work"
+        >
+          Tool Box
+        </h2>
 
         <div className="mt-12 flex items-center flex-wrap gap-12">
           <LogoWrapper tooltip="Photoshop">
@@ -208,23 +214,24 @@ const ToolBox = () => {
 const MotionVideos = () => {
   return (
     <Reveal width="100%">
-      <section className="p-8 md:p-20 lg:p-24 xl:p-32 pt-0 md:pt-0 lg:pt-0 xl:pt-0">
-        <div className="text-2xl lg:text-3xl xl:text-4xl text-center font-georgia font-bold text-[#313232]">
-          <h2>Motion graphics done right!</h2>
-          <p className="text-sm font-serif font-light">
-            (Here are some of the videos i made for insta ads.)
-          </p>
-        </div>
+      <section className="p-8 md:p-20 lg:p-24 xl:p-32 py-8 md:py-8 lg:py-8 xl:py-8">
+        <h2 className="text-3xl font-georgia lg:text-4xl mb-1 pt-8 font-medium lg:font-bold text-center  xl:text-5xl">
+          Motion graphics done right!
+        </h2>
 
-        <div className="mt-32 xl:[&>*:nth-child(even)]:-mt-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center place-content-center gap-12">
-          <Video src="/videos/3.mp4" />
+        <p className="text-lg font-serif font-light mt-3 text-center">
+          (Here are some of the videos i made for insta ads.)
+        </p>
+
+        <div className="mt-24 lg:mt-40 xl:[&>*:nth-child(even)]:-mt-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center place-content-center gap-12">
+          <Video src="/videos/2.mp4" />
           <Video src="/videos/4.mp4" />
           <Video src="/videos/5.mp4" />
-          <Video src="/videos/6.mp4" />
-          <Video src="/videos/7.mp4" />
           <Video src="/videos/8.mp4" />
-          <Video src="/videos/10.mp4" />
+          <Video src="/videos/17.mp4" />
           <Video src="/videos/11.mp4" />
+          <Video src="/videos/10.mp4" />
+          <Video src="/videos/7.mp4" />
         </div>
 
         <div className="flex items-center justify-center my-12">
@@ -244,10 +251,13 @@ const Brands = () => {
   return (
     <Reveal width="100%">
       <section className="bg-[#fff] p-8 md:p-20 lg:p-24 xl:p-32">
-        <div className="text-3xl lg:text-4xl xl:text-5xl font-georgia font-bold text-[#313232]">
-          <h2>Brands</h2>
-        </div>
-        <p className="text-2xl">I Have Designed For</p>
+        <h2
+          className="text-3xl font-georgia lg:text-4xl mb-1 pt-8 font-medium lg:font-bold xl:text-5xl"
+          id="work"
+        >
+          Brands
+        </h2>
+        <p className="text-lg font-serif">I Have Designed For</p>
 
         <Marquee>
           <div className="flex items-center gap-12">
