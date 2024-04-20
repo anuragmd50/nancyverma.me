@@ -36,13 +36,13 @@ function CaseStudy() {
             </p>
           </div>
 
-          <div className="w-full h-[250px] lg:h-[480px] mt-10 lg:mt-16">
+          <div className="w-full h-[200px] lg:h-[480px] mt-10 lg:mt-16">
             <Image
               src="/images/work/innovist/1.jpeg"
               alt=""
               width={1184}
               height={520}
-              className="w-full h-full object-cover transition-all duration-300"
+              className="w-full h-full object-contain lg:object-cover transition-all duration-300"
             />
           </div>
         </Reveal>
