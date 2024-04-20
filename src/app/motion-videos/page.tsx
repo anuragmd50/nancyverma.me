@@ -11,7 +11,7 @@ const MotionVideosPage = () => {
         </h2>
 
         <p className="text-lg font-serif font-light mt-3 text-center">
-          (Here are some of the videos i made for insta ads.)
+          (Here are some of the video advertising assets, I made for Meta)
         </p>
 
         <div className="mt-24 lg:mt-40 xl:[&>*:nth-child(even)]:-mt-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center place-content-center gap-12">
