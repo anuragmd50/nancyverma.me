@@ -52,7 +52,7 @@ function Footer({
 
           <div className="flex-1 flex items-center lg:justify-between gap-4 mt-4 lg:mt-0">
             <a
-              href="https:/www.behance.net/nancyverma5"
+              href="https://www.behance.net/nancyverma5"
               className="lg:ml-auto w-12 h-12 border rounded-xl border-white p-2 flex items-center justify-center"
             >
               <svg
@@ -70,7 +70,7 @@ function Footer({
             </a>
 
             <a
-              href="https:/www.linkedin.com/in/nancy-verma"
+              href="https://www.linkedin.com/in/nancy-verma"
               className="w-12 h-12 border rounded-xl border-white p-2 flex items-center justify-center"
             >
               <svg
