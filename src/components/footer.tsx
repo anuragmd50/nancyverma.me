@@ -54,6 +54,8 @@ function Footer({
             <a
               href="https://www.behance.net/nancyverma5"
               className="lg:ml-auto w-12 h-12 border rounded-xl border-white p-2 flex items-center justify-center"
+              target="_blank"
+              rel="noreferrer"
             >
               <svg
                 width="30"
@@ -70,8 +72,10 @@ function Footer({
             </a>
 
             <a
-              href="https://www.linkedin.com/in/nancy-verma"
+              href="https://www.linkedin.com/in/nancy--verma/"
               className="w-12 h-12 border rounded-xl border-white p-2 flex items-center justify-center"
+              target="_blank"
+              rel="noreferrer"
             >
               <svg
                 width="24"
